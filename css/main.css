@@ -1,0 +1,72 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+	font: 'Open Sans', sans-serif;
+font-size: 300px;
+width: 50em;
+overflow-x: auto;
+margin: 2em;
+}
+
+article {
+padding: 100px;
+max-width: 50em;
+}
+
+h1 {
+margin: 0 auto 1em auto;
+width: 800px;
+}
+
+img {
+	max-width: 100%;
+	margin-left: 50px;
+	
+
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+figcaption {
+  color: #bb021e;
+  padding: 1em 0;
+}
+
+figure {
+  margin: 1em 0 1em 0;
+}
+div#social {
+  line-height: 2em;
+}
